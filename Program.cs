@@ -23,7 +23,7 @@ public class Program
 -----------------------------------------------------------------------*/
 
 
-/* ---------------------------------------------------------------------ПРОГРАМА 2
+/* --------------------------------------------------------------------ПРОГРАМА 2
 public class Program
 {
 
@@ -33,7 +33,7 @@ public class Program
 
         Console.WriteLine("Введіть кількість рядків:");
         int numberOfStrings = int.Parse(Console.ReadLine());
-
+        Console.WriteLine("Результат:");
         for (int i = 0; i <= numberOfStrings; i++)
         {
             for (int j = 0; j < i; j++)
